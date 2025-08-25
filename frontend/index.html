@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RiWallet - Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex align-items-center justify-content-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="card form-card border-0 rounded-4">
+          <div class="card-body p-4">
+            <!-- Logo -->
+            <div class="text-center mb-4">
+              <div class="logo-icon d-inline-flex align-items-center justify-content-center mx-auto">
+                RW
+              </div>
+            </div>
+            <!-- Título -->
+            <div class="text-center mb-4">
+              <h1 class="h3 fw-bold text-light mb-2">Contáctanos</h1>
+              <p class="text-muted mb-0">¿Tienes dudas o sugerencias? Escríbenos</p>
+            </div>
+            <!-- Formulario -->
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label text-light fw-medium">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-light fw-medium">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="tu@email.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label text-light fw-medium">Asunto</label>
+                <input type="text" class="form-control" id="subject" placeholder="Motivo del contacto" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label text-light fw-medium">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
+                <i class="bi bi-send-fill me-2"></i>Enviar Mensaje
+              </button>
+            </form>
+            <!-- Datos de contacto -->
+            <div class="text-center mt-4">
+              <small class="text-muted d-block mb-2">También puedes encontrarnos en:</small>
+              <a href="#" class="me-3"><i class="bi bi-facebook fs-4"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-twitter fs-4"></i></a>
+              <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+            </div>
+            <!-- Footer -->
+            <div class="text-center mt-4">
+              <small class="text-muted">Volver a <a href="index.html">Inicio</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
